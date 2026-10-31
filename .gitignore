@@ -40,10 +40,13 @@ experiments/figures/
 
 # --- Secrets / local env ---
 .secrets.env
-.env
-.env.*
 !.env.example
 *.key
 
 # Pi installs this repository as a package and runs `npm install` in its checkout.
 /package-lock.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
